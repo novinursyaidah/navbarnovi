@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Navbar</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    nav {
+        display: flex;
+        background-image: -moz-linear-gradient(blue,white);
+        justify-content: space-between;
+    }
+    nav h1 {
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 30px;
+    }
+
+    .nav {
+        display: flex;
+        width: 400px;
+
+
+    }
+
+    h3 {
+        padding: 20px;
+
+    }
+
+    h3:hover {
+        background-image: linear-gradient(purple,white);
+
+    }
+
+    a {
+        color: brown;
+
+    }
+
+    .home {
+        background-image: linear-gradient(white,white);
+
+    }
+    .container {
+        display: flex;
+        height: 90vh;
+    }
+
+    .card {
+        margin: auto;
+        height: 350px;
+        width: 250px;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 0 10px;
+    }
+
+    img {
+        height: 80px;
+        width: 80px;
+        margin-bottom: 30px;
+    }
+
+    .card h1 {
+        margin-bottom: 50px;
+
+    }
+    .banner {
+        display: flex;
+        height: 100vh;
+        background-image:url(tom.png) ;
+        background-size: cover ;
+    }
+
+    .wc {
+        color:cornflowerblue;
+        padding: 10px;
+        margin:auto;
+        border:1px solid;
+        border-radius: 30px;
+        background-color: gray;
+    }
+
+    /*about*/
+    .about {
+        padding: 10px;
+        color: green;
+        background-color: white;
+    }
+    p{
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <h1><a href=".navcard.html">Movie App</a></h1>
+        <div class="nav">
+            <h3 class="home"><a href="#">HOME</a></h3>
+            <h3 class="btw"><a href="#">BEST OF THE WEEK</a></h3>
+            <h3 class="contact"><a href="#">CONTACT</a></h3>
+        </div>
+    </nav>
+            <div class="banner">
+                <h1 class="wc">Welcome,Friends!!!</h1>
+            </div>
+            <div class="about">
+                <h1 class="aj">ABOUT</h1>
+                <p>
+                    <b>Movie App</b>adalah sebuah halaman website yang mereview 
+                    vidio vidio paling populer baik dari film untuk
+                    anak anak dibawah umur maupun
+                     dewasa
+                    (tidak termasuk visio po***)
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <h1>Biodata</h1>
+                    <img src="minions.jpg" alt="minions" />
+                    <ul>
+                        <li>Nama : Novi Nursyaidah</li>
+                        <li>Kelas : XI RPL 3</li>
+                        <li>TTD : 06 November 2004</li>
+                    </ul>
+                </div>
+            </div>
+        </body>
+    </html>
